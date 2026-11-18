@@ -18,6 +18,12 @@ npm run build
 npm run preview
 ```
 
+## GitHub Pages
+
+The `main` branch deploys automatically to [https://laksminarayana.github.io/portfolio/](https://laksminarayana.github.io/portfolio/) using `.github/workflows/deploy.yml`. The build sets the repository subpath and includes an SPA fallback for direct route visits.
+
+If GitHub Pages has not been enabled for the repository yet, open **Settings → Pages**, choose **GitHub Actions** as the build and deployment source, then rerun the `Deploy portfolio to GitHub Pages` workflow.
+
 ## Contact configuration
 
 Create a `.env.local` file for secure integrations:
